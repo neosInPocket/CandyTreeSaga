@@ -24,7 +24,7 @@ public class CoachBehaviour : MonoBehaviour
 
 		CoachGuidePassed = coachGuided;
 		Touch.onFingerDown += Attention;
-		coachValue.text = "WELCOME TO CANDY TREE SAGA!";
+		coachValue.text = "WELCOME TO BONANZA STRANGE PATH!";
 		gameObject.SetActive(true);
 		return true;
 	}
